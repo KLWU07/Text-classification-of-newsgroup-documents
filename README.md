@@ -7,4 +7,7 @@ Multinomial Naive Bayes (MNB), and K - Nearest Neighbors (KNN). Among them, SVM 
 tuning was carried out on Logistic Regression, and the accuracy reached 0.9214%. Finally, the accuracy of the tuned model was verified on the test 
 set, and a classification report was generated.
 
-2.
+2.本文主要介绍了20 Newsgroups数据集及其在文本分类任务中的应用。20 Newsgroups数据集包含约20,000篇新闻组文档，分为20个不同主题的新闻组，数据集被分为训练集和测试集。
+在数据预处理阶段，使用了CountVectorizer和TfidfVectorizer两种方法将文本数据转换为数值特征，最终选择了TF-IDF特征用于模型训练和评估。通过10折交叉验证评估了多种算法
+的性能，包括逻辑回归（LR）、支持向量机（SVM）、分类与回归树（CART）、多项式朴素贝叶斯（MNB）和K近邻（KNN），其中SVM和LR表现较好。进一步对逻辑回归进行了网格搜索调
+参准确率达到0.9214%，最终在测试集上验证了调参后的模型准确率，并生成了分类报告。
